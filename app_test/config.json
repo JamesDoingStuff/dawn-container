@@ -1,0 +1,11 @@
+{
+    "inputPath": "/dls/science/users/gmg29649/ceo2.tif",
+    "outputPath": "/dls/science/users/gmg29649/result.nxs",
+    "initialCalibration": "/dls/science/users/gmg29649/init.nxs",
+    "standard": "CeO2",
+    "model": {
+        "numberOfRings": 7,
+        "isPointCalibration": true,
+        "automaticCalibration": true
+    }
+}

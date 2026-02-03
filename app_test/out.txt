@@ -1,0 +1,8 @@
+Single Image Calibration:
+Wavelength (Angstrom):	0.426418(21)
+Distance (mm):		465.931(25)
+Beam Centre X (pixel):	1,188.5250(33)
+Beam Centre Y (pixel):	1,064.0384(33)
+Tilt (degrees):		0.87388(76)
+Tilt Angle (degrees):	-82.367(52)
+Residual:		1.1369081866331229E-7

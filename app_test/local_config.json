@@ -1,0 +1,11 @@
+{
+    "inputPath": "/test_data/ceo2.tif",
+    "outputPath": "/tmp/result.nxs",
+    "initialCalibration": "/test_data/init.nxs",
+    "standard": "CeO2",
+    "model": {
+        "numberOfRings": 7,
+        "isPointCalibration": true,
+        "automaticCalibration": true
+    }
+}

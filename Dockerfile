@@ -1,8 +1,7 @@
 FROM ubuntu:latest
-RUN apt-get update && apt-get install -y unzip wget tree
-RUN wget https://github.com/DawnScience/dawn-website/releases/download/v2.40.0/DawnDiamond-2.40.0.v20251006-1027-linux.x86_64.zip
-# RUN mkdir dawn && unzip DawnDiamond-2.40.0.v20251006-1027-linux.x86_64.zip -d /dawn
-COPY ./app_test test_data
+RUN apt-get update && apt-get install -y unzip wget curl
+RUN mkdir /dawn_workspace
+WORKDIR /dawn_workspace
 
-# RUN useradd -m dawn
-# USER dawn
+RUN curl -s https://api.github.com/repos/DawnScience/dawn-website/releases/latest | grep -wo "https.*linux.x86_64.zip" | wget -qi-
+RUN unzip -q "*.zip"
